@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/nalan.dart';
+import 'screens/toplama.dart';
 
 
 void main() {
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.orange),
         home: const Nalan());
+        //home: const Toplama());
   }
 }
 
